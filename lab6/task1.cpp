@@ -43,20 +43,13 @@ public:
 
 int main(){
 
-  Shape *s;
-  Circle c1(12);
-  cout << "Using Vritual functions\n";
+  Circle circleObj(12);
+  Rectangle rectObj(12, 3.5);
+  Shape *ptr1 = &circleObj;
   cout << "Area of Circle: ";
-  c1.display_area();
-  Rectangle r1(12, 3.5);
-  cout << "Area of Rectangle: ";
-  r1.display_area();
-  cout << "Using late binding \n";
-  s = &c1;
-  cout << "Area of Circle: ";
-  s->display_area();
-  s = &r1;
+  ptr1->display_area();
+  Shape *ptr2 = &rectObj;
   cout << "Area of Rectangle";
-  s->display_area();
+  ptr2->display_area();
   return 0;
 }
