@@ -1,0 +1,3 @@
+C++_How_to_Program Deitel 1500
+Object_Oriented_Programming_in_C++ Robert 2000
+C++_The_Complete_Reference Hilbert 1700

@@ -1,0 +1,5 @@
+Ram 32 70
+Shaym 33 85
+Hari 34 84
+Geeta 35 100
+Rita 36 100
